@@ -16,6 +16,10 @@
 #   - false (default)
 tmux_conf_preserve_stock_bindings=false
 
+# split current window horizontally
+bind \\ split-window -v
+# split current window vertically
+bind | split-window -h
 
 # -- session creation ----------------------------------------------------------
 
